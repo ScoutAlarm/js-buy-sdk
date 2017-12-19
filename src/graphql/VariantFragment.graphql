@@ -5,6 +5,9 @@ fragment VariantFragment on ProductVariant {
   weight
   available
   compareAtPrice
+  product {
+    ...VariantProductFragment
+  }
   image {
     id
     src

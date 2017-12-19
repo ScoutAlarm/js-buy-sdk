@@ -1,0 +1,5 @@
+fragment VariantProductFragment on Product {
+  handle
+  description
+  descriptionHtml
+}
