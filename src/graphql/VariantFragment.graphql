@@ -1,5 +1,6 @@
 fragment VariantFragment on ProductVariant {
   id
+  sku
   title
   price
   weight
